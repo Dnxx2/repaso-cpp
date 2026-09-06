@@ -23,16 +23,16 @@ void intercambiar1(int a, int b)
   a = c;
   std::cout << "a: " << a << std::endl;
   std::cout << "b: " << b << std::endl;
-  std::cout << "c: " << c << std::endl;
+  //std::cout << "c: " << c << std::endl;
 }
 void intercambiar2(int *a, int *b)
 {
   int c = *a;
   *a = *b;
   *b = c;
-  std::cout << "a: " << a << std::endl;
-  std::cout << "b: " << b << std::endl;
-  std::cout << "c: " << c << std::endl;
+  std::cout << "a: " << *a << std::endl;
+  std::cout << "b: " << *b << std::endl;
+  //std::cout << "c: " << c << std::endl;
 }
 void intercambiar3(int &a, int &b)
 {
@@ -41,5 +41,5 @@ void intercambiar3(int &a, int &b)
   b = c;
   std::cout << "a: " << a << std::endl;
   std::cout << "b: " << b << std::endl;
-  std::cout << "c: " << c << std::endl;
+  //std::cout << "c: " << c << std::endl;
 }
