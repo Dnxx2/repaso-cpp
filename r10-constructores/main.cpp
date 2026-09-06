@@ -6,7 +6,11 @@ int main() {
                                              Sesion(a)
                                             Sesion(b)
                                            Sesion(c, 2)
-                                           ~Sesion(c)*/
+                                           ~Sesion(c)
+                                           ---medio---
+                                           ~Sesion(a)
+                                          ~Sesion(global) 
+                                           */
     std::cout << "--- medio ---\n";
     Sesion d;
 }
