@@ -29,6 +29,7 @@ public:
         }
         return *this;
     }
+    
 
     // 3. Destructor
     ~Arreglo() {
