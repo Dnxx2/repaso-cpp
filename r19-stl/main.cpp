@@ -5,6 +5,7 @@
 #include <set>
 #include <algorithm>
 //soluciones + input y ayuda de Google Gemini jeje
+//necesito estudiar estos temas mas a fondo 
 // 1. SOLUCIÓN CON VECTOR
 // Requiere ordenar primero para agrupar duplicados, luego se itera contando.
 void count_vector(std::vector<std::string> words) { 
